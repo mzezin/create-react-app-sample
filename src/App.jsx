@@ -1,15 +1,10 @@
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        BOO
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    BOO
+  </div>
+);
+
 
 export default App;
